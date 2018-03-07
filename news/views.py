@@ -50,3 +50,4 @@ def new_feed(request):
     else:
         form = FeedForm()
     return render(request, 'news/new_feed.html', {'form': form})
+

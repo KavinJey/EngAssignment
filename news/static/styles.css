@@ -1,7 +1,6 @@
 
-
 p {
-
+    font-size: 1.3em;
     color: #000;
     font-family: 'Assistant', sans-serif;
 
@@ -14,10 +13,42 @@ h1 {
     font-family: 'Secular One', sans-serif;
 }
 
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 4em;
+
+
+}
+
 .slogan {
     font-size: 3.3em;
     text-align: center;
     color:  #C12122; 
     font-weight: bold;
     font-family: 'Megrim', cursive;
+}
+
+.line {
+
+    height:1px;
+    background:#000;
+    border-bottom:1px solid #000;
+
+}
+
+#bb {
+    z-index: 2;
+    position:   absolute;
+    opacity: 0;
+    transition: opacity 2s ease;
+    
+
+
+}
+
+#bb:hover {
+    z-index: 2;
+    opacity: 1;
+
 }
