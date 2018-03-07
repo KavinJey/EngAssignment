@@ -1,0 +1,23 @@
+
+
+p {
+
+    color: #000;
+    font-family: 'Assistant', sans-serif;
+
+}
+
+
+h1 { 
+    font-size: 6em;
+    color: #000;
+    font-family: 'Secular One', sans-serif;
+}
+
+.slogan {
+    font-size: 3.3em;
+    text-align: center;
+    color:  #C12122; 
+    font-weight: bold;
+    font-family: 'Megrim', cursive;
+}
