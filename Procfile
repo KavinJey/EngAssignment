@@ -1,1 +1,1 @@
-web: gunicorn newsproject.wsgi --pythonpath=newsproject --log-file -
+web: gunicorn stories.wsgi --pythonpath=stories --log-file -
