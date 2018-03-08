@@ -2,3 +2,4 @@ Django==1.11.10
 feedparser==5.2.1
 pytz==2018.3
 gunicorn==19.7.1
+whitenoise==2.0.6
