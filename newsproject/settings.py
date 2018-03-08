@@ -102,4 +102,5 @@ USE_TZ = True
 
 
 STATIC_URL = '/news/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'news/static')
 
