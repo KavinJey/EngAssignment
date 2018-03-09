@@ -53,21 +53,23 @@
 
 
 <div class="container-fluid">
-  {% for row in rows %}
-  <div class="col-md-6 ">
-    {% for entry in row %}
-    <h2> {{entry.title}} </h2>
-    <p>{{entry.description | safe}}</p>
-    <p>
-      <a href="#">See More..</a>
-    </p>
+  <div class="row">
+    {% for row in rows %}
+
+    <div class="col-md-6 ">
+      {% for entry in row %}
+      <h2> {{entry.title}} </h2>
+      <p>{{entry.description | safe}}</p>
+      <p>
+        <a href="#">See More..</a>
+      </p>
 
 
 
+      {% endfor %}
+    </div>
     {% endfor %}
   </div>
-  {% endfor %}
-
 
 
 </div>
